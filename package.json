@@ -9,7 +9,7 @@
   "scripts": {
     "build": "",
     "build:program": "cargo build-sbf --manifest-path=program/Cargo.toml",
-    "test": "cargo test-sbf --manifest-path=sdk/rust/Cargo.toml",
+    "test": "cargo test --manifest-path=sdk/rust/Cargo.toml",
     "build:cli": "cargo build --manifest-path=cli/Cargo.toml",
     "generate-sdks": "pnpx tsx codama.ts",
     "copy:test:fixtures": "cp target/deploy/token_acl_gate_program.so sdk/rust/tests/fixtures/"
