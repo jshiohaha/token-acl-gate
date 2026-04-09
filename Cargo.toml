@@ -32,6 +32,8 @@ spl-tlv-account-resolution = "0.11.1"
 spl-type-length-value = "0.8.0"
 spl-pod = "0.5.1"
 spl-associated-token-account-interface = "^2.0"
+codama = "0.8.0"
+serde_json = "1"
 token-acl-interface = { version = "0.2.2" }
 token-acl-client = { version = "0.2.2" }
 token-acl = { version = "0.2.2", features = ["no-entrypoint",] }
