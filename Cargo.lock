@@ -95,7 +95,7 @@ dependencies = [
  "solana-bn254",
  "solana-clock",
  "solana-cpi",
- "solana-curve25519 3.1.11",
+ "solana-curve25519",
  "solana-hash 3.1.0",
  "solana-instruction",
  "solana-keccak-hasher",
@@ -4888,20 +4888,6 @@ dependencies = [
 
 [[package]]
 name = "solana-curve25519"
-version = "2.3.13"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eae4261b9a8613d10e77ac831a8fa60b6fa52b9b103df46d641deff9f9812a23"
-dependencies = [
- "bytemuck",
- "bytemuck_derive",
- "curve25519-dalek",
- "solana-define-syscall 2.3.0",
- "subtle",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "solana-curve25519"
 version = "3.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9a9eaec815ed773919bc7269c027933fc2472d7b9876f68ea6f1281c7daa5278"
@@ -4913,12 +4899,6 @@ dependencies = [
  "subtle",
  "thiserror 2.0.18",
 ]
-
-[[package]]
-name = "solana-define-syscall"
-version = "2.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2ae3e2abcf541c8122eafe9a625d4d194b4023c20adde1e251f94e056bb1aee2"
 
 [[package]]
 name = "solana-define-syscall"
@@ -6590,7 +6570,7 @@ dependencies = [
  "serde",
  "serde_json",
  "sha3",
- "solana-curve25519 3.1.11",
+ "solana-curve25519",
  "solana-derivation-path",
  "solana-instruction",
  "solana-pubkey 3.0.0",
@@ -6848,7 +6828,7 @@ checksum = "afbeb07f737d868f145512a4bcf9f59da275b7a3483df0add3f71eb812b689fb"
 dependencies = [
  "base64 0.22.1",
  "bytemuck",
- "solana-curve25519 3.1.11",
+ "solana-curve25519",
  "solana-zk-sdk",
 ]
 
@@ -6860,7 +6840,7 @@ checksum = "879a9ebad0d77383d3ea71e7de50503554961ff0f4ef6cbca39ad126e6f6da3a"
 dependencies = [
  "bytemuck",
  "solana-account-info",
- "solana-curve25519 3.1.11",
+ "solana-curve25519",
  "solana-instruction",
  "solana-instructions-sysvar",
  "solana-msg",
@@ -7338,7 +7318,7 @@ dependencies = [
  "pinocchio-pubkey",
  "pinocchio-system",
  "serde_json",
- "solana-curve25519 2.3.13",
+ "solana-curve25519",
  "spl-discriminator",
  "spl-tlv-account-resolution",
  "token-acl",

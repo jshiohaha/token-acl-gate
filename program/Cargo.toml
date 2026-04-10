@@ -19,12 +19,11 @@ pinocchio-system = "0.3.0"
 pinocchio-log = "0.5.0"
 spl-discriminator = "0.5.0"
 spl-tlv-account-resolution = "0.11.1"
-
 token-acl-interface = { workspace = true }
 token-acl = { workspace = true, features = [
     "no-entrypoint",
 ] }
-solana-curve25519 = "2.2.1"
+solana-curve25519 = { version = "^3", features = ["agave-unstable-api"] }
 codama = { workspace = true }
 
 [build-dependencies]
