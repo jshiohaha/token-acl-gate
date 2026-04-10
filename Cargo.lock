@@ -7287,6 +7287,7 @@ dependencies = [
  "litesvm",
  "num-derive",
  "num-traits",
+ "solana-account",
  "solana-account-info",
  "solana-client",
  "solana-cpi",
