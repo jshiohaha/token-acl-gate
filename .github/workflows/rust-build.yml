@@ -2,9 +2,8 @@ name: Rust Checks
 
 on:
   push:
-    branches: [master]
-  pull_request:
-    branches: [master]
+    branches:
+      - update-deps-copy
 
 
 jobs:
